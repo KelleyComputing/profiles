@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FilterBrowsers</key>
+			<true/>
+			<key>FilterSockets</key>
+			<true/>
+			<key>FilterType</key>
+			<string>Plugin</string>
+			<key>Organization</key>
+			<string>Sophos</string>
+			<key>PayloadDescription</key>
+			<string>Configures content filtering settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Sophos Web Content Filter</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webcontent-filter.85A23A0C-A0C7-4388-B70B-30B8BACA95E9</string>
+			<key>PayloadType</key>
+			<string>com.apple.webcontent-filter</string>
+			<key>PayloadUUID</key>
+			<string>85A23A0C-A0C7-4388-B70B-30B8BACA95E9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PluginBundleID</key>
+			<string>com.sophos.endpoint.network</string>
+			<key>UserDefinedName</key>
+			<string>Sophos Web Content Filter</string>
+			<key>VendorConfig</key>
+			<dict>
+				<key>FilterDataProviderBundleIdentifier</key>
+				<string>com.sophos.endpoint.networkextension</string>
+				<key>FilterDataProviderDesignatedRequirement</key>
+				<string>identifier "com.sophos.endpoint.networkextension" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2H5GFH3774"</string>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Sophos Web Filter Extension</string>
+	<key>PayloadIdentifier</key>
+	<string>net.kelleycomputing.profile.webcontent-filter.A2338.024FBB95-7771-4704-8981-EEBE8E47CAFF</string>
+	<key>PayloadOrganization</key>
+	<string>Kelley Computing</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B017881E-3398-4081-B387-B2A0D5D8C58C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
